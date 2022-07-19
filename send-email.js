@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
 
 transporter.sendMail({
   from: '17ck1 web 2 <17k1.web2.demo@gmail.com>',
-  to: 'maithienchi <mtchi2019@gmail.com>',
+  to: 'maithienchi <@gmail.com>',
   subject: 'Hello',
   text: 'Hello world?',
 }).then(console.log).catch(console.error);
